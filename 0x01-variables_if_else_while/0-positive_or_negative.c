@@ -1,10 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 #include <stdio.h>
-/* betty style doc for function main goes there */
 /**
- * main - Determine if the number is positive, negative or zero
+ * main - Determine if the number is positive, negative or zeo
  *
  * Return: always 0 (success)
  */
@@ -15,7 +13,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
 	if (n > 0)
 		printf("%d is positive", n);
 	if else(n == 0)
