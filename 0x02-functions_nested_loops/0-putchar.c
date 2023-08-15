@@ -2,7 +2,7 @@
 
 /**
  * main - print putchar
- *
+ *is written by mhah
  * Return: always 0
  */
 int main(void)
