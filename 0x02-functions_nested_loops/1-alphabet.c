@@ -2,14 +2,15 @@
 /**
  * main - print all alphabet in lowercase
  *
- * Return: always 0
+ * Return: void
  */
-int main(void)
+void print_alphabet(void)
+{
+	char c;
 
-	char a, z;
-
-	for (letter = 'a' ; letter <= 'z' ; letter)
-	_putchar(letter);
-	_putchar('\n');
-	return (0);
+	for (c = 'a' ; c <= 'z' ; c++)
+	{
+	_putchar(c);
+	}
+	putchar('\n')
 }
