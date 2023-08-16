@@ -3,8 +3,8 @@
 /**
  * main - check the code
  *
- * Return: always 0.
- */
+ * Return: Always 0.
+i */
 
 int main(void)
 {
